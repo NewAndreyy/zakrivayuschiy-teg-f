@@ -4,3 +4,74 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+:root.theme-light {
+  /*фон*/
+  --page-background-color: var(--color-white, #ffffff);
+  --page-background-image: repeating-linear-gradient(
+      to left,
+      #d3d3d3 0 2px,
+      #d3d3d300 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, #d3d3d300 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+  /*цвет*/
+  --color-logo: #000000;
+  --title-color: #000000;
+  --accent-color: #000000;
+  --text-color: #000000;
+  --border-color: #000000;
+  --header-bg-color: #ffffff;
+  --button-color: #000000;
+  --button-hover-color: #000000;
+  --card-title-color: #000000;
+  --bg-color: #ffffff;
+  --lable-color: #000000;
+  --color-text: #000000;
+  --bg-color-button: #000000;
+  --heart-contour-color: #000000;
+  --color-text-button: #ffffff;
+  --floppy-color: #ffffff;
+  --lable-contur-color: #ffffff;
+  --text-stroke-color: #ffffff;
+}
+:root.theme-dark {
+  /*фон*/
+  --color-black: url(/svg/background.svg);
+  --page-background-color: var(--color-black, #000000);
+  --page-background-image: repeating-linear-gradient(
+      to right,
+      #000 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, #000 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #007f0c, #004306);
+  --bg-color: #000000;
+
+  /*Цвета*/
+  --color-logo: #00cc14;
+  --title-color: #00cc14;
+  --accent-color: #00cc14;
+  --text-color: #00cc14;
+  --border-color: #00cc14;
+  --theme-menu-color: #00cc14;
+  --theme-menu-button-color: #00cc14;
+  --card-title-color: #00cc14;
+  --card-lable-color: #00cc14;
+  --color-text: #00cc14;
+  --button-color: #00cc14;
+  --header-bg-color: #000000;
+  --lable-contur-coler: #000000;
+  --lable-color: #00cc14;
+  --button-hover-color: #00cc14;
+  --text-stroke-color: #000000;
+  --transparent-color: #00000000;
+  --dialog-backdrop-color: #000000;
+  --color-text-button: #00cc14;
+
+  /*Цвет SVG*/
+  --heart-contour-color: #00cc14;
+  /*heart*/
+  --active-heart-color: #ff0000;
+  --heart-contour-color: #00cc14;
+  --heart-sparks-color: #ff0000;
+}

@@ -1,1 +1,72 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+/*:root {
+  --color-black: #000000;
+  --color-black: --bg-dark: url(/svg/background.svg);
+  --page-background-color: var(--color-black, #000000);
+  --page-background-image: repeating-linear-gradient(
+      to left,
+      #000000 0 2px,
+      #00000000 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, #000000 0 2px, #00000000 2px 4px),
+    linear-gradient(to bottom, #007f0c, #004306);
+ 
+}*/
+:root {
+  /*фон*/
+  --color-black: url(/svg/background.svg);
+  --page-background-color: var(--color-black, #000000);
+  --page-background-image: repeating-linear-gradient(
+      to right,
+      #000 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, #000 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #007f0c, #004306);
+  --bg-color: #000000;
+
+  /*Цвета*/
+  --color-logo: #00cc14;
+  --title-color: #00cc14;
+  --accent-color: #00cc14;
+  --text-color: #00cc14;
+  --border-color: #00cc14;
+  --theme-menu-color: #00cc14;
+  --theme-menu-button-color: #00cc14;
+  --card-title-color: #00cc14;
+  --card-lable-color: #00cc14;
+  --color-text: #00cc14;
+  --button-color: #00cc14;
+  --header-bg-color: #000000;
+  --lable-contur-color: #000000;
+  --lable-color: #00cc14;
+  --button-hover-color: #00cc14;
+  --text-stroke-color: #000000;
+  --transparent-color: #00000000;
+  --dialog-backdrop-color: #000000;
+  --bg-color-button: #00cc14;
+  --color-text-button: #00cc14;
+
+  /*Семейства шрифтов*/
+  --title-font-family: "PressStart2P", fantasy;
+  --logo-font-family: "PressStart2P", fantasy;
+  --lable-font-family: "PressStart2P", fantasy;
+  --text-font-family: "Inter", sans-serif;
+  --theme-menu-font-family: "PressStart2P", fantasy;
+  --main-font: "Inter-Variable";
+  --accent-font-family: "PressStart2P", fantasy;
+  --second-font-family: "Inter", sans-serif;
+  --button-font-family: "PressStart2P", fantasy;
+  --card-title-font-family: "Inter", sans-serif;
+  --card-lable-font-family: "PressStart2P", fantasy;
+  /*вес шрифта*/
+  --page-font-weight: 400;
+  --font-weight-title: 785;
+  /*Цвет SVG*/
+  --heart-contour-color: #00cc14;
+  --floppy-color: #00cc14;
+  /*heart*/
+  --active-heart-color: #ff0000;
+  --heart-contour-color: #00cc14;
+  --heart-sparks-color: #ff0000;
+}
