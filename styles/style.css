@@ -54,8 +54,7 @@
   text-transform: uppercase;
   padding-block-end: 25px;
 }
-.theme-menu {
-}
+
 .header__theme-menu {
   margin-inline-start: 15px;
 }
@@ -63,8 +62,7 @@
   display: grid;
   gap: 10px;
 }
-.theme-menu__item {
-}
+
 .button {
   outline: none;
 }
