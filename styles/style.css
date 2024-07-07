@@ -63,9 +63,6 @@
   gap: 10px;
 }
 
-.button {
-  outline: none;
-}
 .theme-menu__button {
   position: relative;
   padding: 0;
