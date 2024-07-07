@@ -170,9 +170,9 @@
   (text-stroke: 1px var(--text-stroke-color)) or
     (-webkit-text-stroke: 1px var(--text-stroke-color))
 ) {
-  .card__image-label {
+  .card_lable {
     -webkit-text-stroke: 1px var(--text-stroke-color);
-    text-stroke: 2px var(--text-stroke-color);
+    text-stroke: 1px var(--text-stroke-color);
     text-shadow: none;
   }
 }
@@ -353,16 +353,6 @@ dialog:not([open]) {
   color: var(--color-text-button);
   mix-blend-mode: difference;
 }
-/*.button__text {
-  position: relative;
-  padding-block-end: 0.188rem;
-  font-family: var(--button-font-family);
-  font-size: 14px;
-  font-weight: 400;
-  white-space: nowrap;
-  color: var(--button-color);
-  mix-blend-mode: difference;
-}*/
 
 .filter-grayscale {
   filter: grayscale(70%);
