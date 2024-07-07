@@ -381,10 +381,6 @@ dialog:not([open]) {
 }
 
 @media (width <= 375px) {
-  /* .card__list {
-    gap: var(--gap-xxl);
-  } */
-
   .card__text-wrapper {
     margin-block-end: 1.5rem;
   }
