@@ -382,9 +382,6 @@ dialog:not([open]) {
 }
 
 @media (width <= 375px) {
-  .header__theme-menu {
-    padding-block-end: 1.313rem;
-  }
   .card__text-wrapper {
     margin-block-end: 1.625rem;
   }
