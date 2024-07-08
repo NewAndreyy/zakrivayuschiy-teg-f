@@ -34,6 +34,7 @@
   --dialog-backdrop-color: #000000;
   --bg-color-button: #00cc14;
   --color-text-button: #00cc14;
+  --focus-color: #00cc14;
 
   /*Семейства шрифтов*/
   --title-font-family: "PressStart2P", fantasy;
@@ -48,12 +49,13 @@
   --card-title-font-family: "Inter", sans-serif;
   --card-lable-font-family: "PressStart2P", fantasy;
   /*вес шрифта*/
-  --page-font-weight: 400;
+  --page-font-weight: 465;
   --font-weight-title: 785;
   /*Цвет SVG*/
   --heart-contour-color: #00cc14;
   --floppy-color: #00cc14;
   /*heart*/
+  --hover-heart-color: #00cc14;
   --active-heart-color: #ff0000;
   --heart-contour-color: #00cc14;
   --heart-sparks-color: #ff0000;
