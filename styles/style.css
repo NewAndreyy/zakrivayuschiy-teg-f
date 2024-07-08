@@ -58,6 +58,7 @@
 
 .header__theme-menu {
   margin-inline-start: 15px;
+  margin-block-end: 21px;
 }
 .theme-menu__list {
   display: grid;
