@@ -49,6 +49,7 @@
   --card-title-font-family: "Inter", sans-serif;
   --card-lable-font-family: "PressStart2P", fantasy;
   /*вес шрифта*/
+  --font-weight: 400;
   --page-font-weight: 465;
   --font-weight-title: 785;
   /*Цвет SVG*/

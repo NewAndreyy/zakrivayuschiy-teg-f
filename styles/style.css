@@ -26,7 +26,7 @@
   background-size: cover;
   background-attachment: fixed;
   font-family: var(--main-font), sans-serif;
-  font-variation-settings: "wght" var(--page-font-weight);
+  font-variation-settings: "wght" var(--font-weight);
 }
 .header {
   width: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
@@ -187,6 +187,7 @@
   font-family: var(--text-font-family);
   font-size: 18px;
   color: var(--color-text);
+  line-height: 21px;
 }
 .card__controls {
   display: flex;
@@ -342,9 +343,25 @@ dialog:not([open]) {
   border: 2px solid var(--border-color);
   cursor: pointer;
 }
+.dialog__button:focus-visible {
+  outline: none;
+  box-shadow: 2px 2px 0px 0px var(--accent-color);
+  transition: box-shadow 0.3s ease;
+}
 .button__text {
   position: relative;
   padding-block-end: 0.188rem;
+  font-family: var(--button-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  white-space: nowrap;
+  color: var(--color-text-button);
+  mix-blend-mode: difference;
+  line-height: 21px;
+}
+.save__button_text {
+  position: relative;
+
   font-family: var(--button-font-family);
   font-size: 14px;
   font-weight: 400;
@@ -382,9 +399,6 @@ dialog:not([open]) {
 }
 
 @media (width <= 375px) {
-  .card__text-wrapper {
-    margin-block-end: 1.625rem;
-  }
   .card_lable {
     inset-inline-end: 0.56rem;
   }
